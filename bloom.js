@@ -26,6 +26,8 @@ app.get("/videos", async (req, res) => {
             "stress relief motivations"
         ];
 
+        const query = queries[Math.floor(Math.random() * queries.length)];
+
         const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=10&q=${encodeURIComponent(query)}&key=${API_KEY}`;
 
         const response = await fetch(url);

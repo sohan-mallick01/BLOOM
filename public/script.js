@@ -236,7 +236,7 @@ async function loadVideos() {
     container.innerHTML = "<p style='text-align:center; color:white;'>Loading vibes... 🌸</p>";
 
     try {
-        const res = await fetch("http://localhost:5000/videos");
+        const res = await fetch("https://bloom-6g0s.onrender.com/videos");
         const data = await res.json();
 
         container.innerHTML = "";
