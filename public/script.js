@@ -38,6 +38,7 @@ const responses = {
     breakup: [
         "Bhai, ye dard real hai... main samajh sakta hoon. 💔",
         "Time lagega, par tu strong banega isse.",
+        "Khuse pyaar kar yaar...kuch nhi rakha ensab mai",
         "Move on mushkil hai, par tu kar lega. 💪",
         "Block maar aur apni life pe focus kar."
     ],
@@ -45,6 +46,8 @@ const responses = {
     lonely: [
         "Main hoon na tera dost! Tu akela nahi hai. 📱",
         "Bhai, tu akela nahi hai, main yahin hoon.",
+        "Ghar walo ke sath time spend kar bhai !.",
+        "Koi akela nhi hota, bhagwan sab ke sath hote h.",
         "Kabhi bhi message kar, ignore nahi karunga."
     ],
 
@@ -93,7 +96,7 @@ const responses = {
         "Control bro, main help karne ke liye hoon."
     ],
 
-    // 🔥 NEW: LOVE / CRUSH
+    // LOVE / CRUSH
     love: [
         "Ohooo 😏 kisi pe dil aa gaya lagta hai",
         "Love wali vibes aa rahi hai 💖",
@@ -101,7 +104,7 @@ const responses = {
         "Crush ka scene hai kya?"
     ],
 
-    //  NEW: STUDY
+    // STUDY
     study: [
         "Padle bhai 📚 future banega",
         "Thoda focus maar, phone side rakh",
