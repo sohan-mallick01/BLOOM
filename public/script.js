@@ -249,8 +249,6 @@ async function loadVideos() {
         data.forEach(id => {
             let div = document.createElement("div");
             div.className = "reel";
-
-            // 🔥 FIX: autoplay=0 kar diya aur mute hata diya taki click karte hi awaaz aaye
             div.innerHTML = `
                 <iframe 
                     src="https://www.youtube.com/embed/${id}?autoplay=0&rel=0&playsinline=1"
