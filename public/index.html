@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Bloom | Dil ki Baat</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 🔝 TOP NAV -->
+    <nav class="top-nav">
+        <strong>🌸 BLOOM</strong>
+    </nav>
+
+    <!-- 🧠 MAIN -->
+    <main class="main-container">
+
+        <!-- 💬 CHAT SCREEN -->
+        <div id="chatScreen" class="screen active">
+            <div class="chat-full">
+
+                <div class="chat-header-info">
+                    <span class="avatar">🌸</span>
+                    <div class="status-info">
+                        <strong>Bloom Bot</strong>
+                        <p>Online | Always here for you</p>
+                    </div>
+                </div>
+
+                <div id="chatBody" class="chat-body">
+                    <div class="msg bot">Hey... I'm here for you... 💚</div>
+                </div>
+
+                <div class="chat-input-area">
+                    <input 
+                        type="text" 
+                        id="input" 
+                        placeholder="Apne dil ki baat likho..." 
+                        autocomplete="off"
+                    >
+                    <button id="sendBtn">Send</button>
+                </div>
+
+            </div>
+        </div>
+
+       <!-- 🎬 REELS SCREEN -->
+<div id="reelsScreen" class="screen">
+    <button id="unmuteAllBtn" style="margin:10px; padding:10px; border-radius:8px; background:#4caf50; color:white; border:none;">
+        
+    </button>
+    <div id="reelsContainer" class="reels-container">
+        <p style="text-align:center;">Click Bloom TV to load reels 🎬</p>
+    </div>
+</div>
+
+        <!-- ❤️ HELP SCREEN -->
+        <div id="schemeScreen" class="screen">
+            <div id="schemeContainer" class="scheme-container">
+                <p style="text-align:center;">Click Help to load support ❤️</p>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- 🔽 BOTTOM NAV -->
+    <div class="bottom-nav">
+        <button id="navChat" class="active" onclick="switchTab('chat')">
+            <span>💬</span><br>Chat
+        </button>
+
+        <button id="navReels" onclick="switchTab('reels')">
+            <span>🎬</span><br>Bloom TV
+        </button>
+
+        <button id="navScheme" onclick="switchTab('scheme')">
+            <span>❤️</span><br>Help
+        </button>
+    </div>
+
+    <!-- ⚡ SCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
