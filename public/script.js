@@ -85,7 +85,7 @@ const responses = {
         "Mummy se baat karle bhai, sab thik ho jayega 💖"
     ],
 
-    // 🔥 NEW: ANGRY / GAALI RESPONSE
+    // NEW: ANGRY
     angry: [
         "Abe chill kar bhai 😅 kya ho gaya?",
         "Itna gussa kyu? Bata kya scene hai.",
@@ -101,7 +101,7 @@ const responses = {
         "Crush ka scene hai kya?"
     ],
 
-    // 🔥 NEW: STUDY
+    //  NEW: STUDY
     study: [
         "Padle bhai 📚 future banega",
         "Thoda focus maar, phone side rakh",
@@ -176,7 +176,7 @@ function getResponse(t) {
     if (t.includes("study") || t.includes("pad"))
         return pick(responses.study);
 
-    // GAALI DETECTION (basic)
+    // GAALI DETECTION 
     if (
         t.includes("madarchod") ||
         t.includes("behenchod") ||

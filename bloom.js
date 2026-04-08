@@ -53,7 +53,7 @@ app.get("/videos", async (req, res) => {
         }
 
         const videos = data.items
-            .filter(item => item.id && item.id.videoId) // 🔥 important fix
+            .filter(item => item.id && item.id.videoId) 
             .map(item => item.id.videoId);
 
         res.json(videos);
@@ -69,5 +69,5 @@ app.get("/videos", async (req, res) => {
 });
 
 app.listen(5000, () => {
-    console.log("Bloom server running 👉 http://localhost:5000");
+    console.log("Bloom server running: http://localhost:5000");
 });
