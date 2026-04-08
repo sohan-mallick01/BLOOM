@@ -54,6 +54,7 @@ const responses = {
     stress: [
         "Gehri saans le... sab thik ho jayega. 🧘‍♂️",
         "Overthinking band kar thodi der ke liye.",
+        "Gharwalo ke sath time spend kar...bohot achha lagega.",
         "Break lele bhai, brain bhi rest chahta hai."
     ],
 
@@ -112,6 +113,15 @@ const responses = {
         "Exam aa rahe hain kya? 😄"
     ],
 
+    // NEW: JOKES
+    joke: [
+        "Ek bachha rote hue school se aaya. Maa: Kya hua? Bachha: Teacher ne maara. Maa: Tune kya kiya tha? Bachha: Kuch nahi, bas pucha tha ki Miss, aapne jo make-up kiya hai, wo kis app se kiya hai? 🤣",
+        "Teacher: Batao sabse wafadaar jaanwar kaunsa hai? Student: Murgi! Teacher: Wo kaise? Student: Zinda hai to anda deti hai, mar jaye to leg piece! 🍗😂",
+        "Pati: Aaj khane mein kya banaya hai? Patni: Zehar! Pati: Thik hai, tum kha ke so jao, bartan main dho dunga. 💀🤣",
+        "Arz kiya hai... Na dard hai, na aawaz hai... Na dard hai, na aawaz hai... Kyunki mera phone silent par hai! Wah wah! 📱🤪",
+        "Dost: Bhai, main kal se subah 5 baje uthunga. Main: Bhai tu uthega nahi, uthega toh bas tera agla sapna! 😴😂"
+    ],
+
     default: [
         "Achha? Phir kya hua?",
         "Bolo bhai, main sun raha hoon 💚",
@@ -142,6 +152,10 @@ function getResponse(t) {
     // BREAKUP
     if (t.includes("breakup") || t.includes("dhokha") || t.includes("ex"))
         return pick(responses.breakup);
+
+    // JOKE
+    if (t.includes("joke") || t.includes("chutkula") || t.includes("hansa") || t.includes("comedy"))
+        return pick(responses.joke);
 
     // LONELY
     if (t.includes("akela") || t.includes("lonely") || t.includes("alone"))
