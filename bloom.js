@@ -21,7 +21,8 @@ app.get("/videos", async (req, res) => {
             "maa love",
             "sandeep maheshwari funny moments",
             "upsc motivation funny status",
-            "IIT JEE attitude status",
+            "never give up",
+            "self love",
             "student life funny motivation india",
             "stress relief motivations"
         ];
