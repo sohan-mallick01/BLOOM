@@ -39,7 +39,7 @@ const responses = {
         // "Bhai, ye dard real hai... main samajh sakta hoon. 💔",
         // "Time lagega, par tu strong banega isse.",
         // "Khud se pyaar kar yaar...kuch nhi rakha ensab mai",
-        "Move on mushkil hai, par tu kar lega. Stay Strong Comeback kar usko dikha ki thukra ke pyaaar mera intekaam dekhegi fir tu usko reject karna 💪",
+        "Move on mushkil hai, par tu kar legi. Stay Strong... Comeback kar.... usko dikha ki thukra ke mera pyaaar meri intekaam dekhega fir tu usko reject karna 💪",
         // "Block maar aur apni life pe focus kar."
     ],
 
