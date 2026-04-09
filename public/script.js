@@ -13,7 +13,7 @@ function switchTab(screen) {
     } else if (screen === "reels") {
         document.getElementById("reelsScreen").classList.add("active");
         document.getElementById("navReels").classList.add("active");
-        loadVideos(); 
+        loadVideos();
     } else {
         document.getElementById("schemeScreen").classList.add("active");
         document.getElementById("navScheme").classList.add("active");
@@ -118,6 +118,9 @@ const responses = {
         "Ek bachha rote hue school se aaya. Maa: Kya hua? Bachha: Teacher ne maara. Maa: Tune kya kiya tha? Bachha: Kuch nahi, bas pucha tha ki Miss, aapne jo make-up kiya hai, wo kis app se kiya hai? 🤣",
         "Teacher: Batao sabse wafadaar jaanwar kaunsa hai? Student: Murgi! Teacher: Wo kaise? Student: Zinda hai to anda deti hai, mar jaye to leg piece! 🍗😂",
         "Pati: Aaj khane mein kya banaya hai? Patni: Zehar! Pati: Thik hai, tum kha ke so jao, bartan main dho dunga. 💀🤣",
+        "  Computer-Mujhe chill karna hai...Laptop-Thik hai, sleep mode mein chala jao 💻😂." ,
+        " Internet down hua… aur mai realize ki meri life ka main purpose sirf memes dekhna tha. 🌐💔🤣" ,
+        "Murgi: Main pehle aayi ya anda? Main: Relax bro… dono ka future scrambled hai!🐔🥚😂" ,
         "Arz kiya hai... Na dard hai, na aawaz hai... Na dard hai, na aawaz hai... Kyunki mera phone silent par hai! Wah wah! 📱🤪",
         "Dost: Bhai, main kal se subah 5 baje uthunga. Main: Bhai tu uthega nahi, uthega toh bas tera agla sapna! 😴😂"
     ],
