@@ -1,4 +1,5 @@
-🌸 Project BLOOM
+🌸 Project BLOOM: 
+
 A Hinglish Emotional Support Bot & Positivity Hub for Indian Youth
 BLOOM is a mobile-first Progressive Web App (PWA) built to tackle the silent mental health crisis among Indian students. It bridges the gap between emotional distress and professional help using a relatable, "Desi" context.
 
